@@ -1,15 +1,15 @@
 <?php
 /*
- * Plugin name: FF Plugin Boilerplate
- * Version: 2.0
- * Description: Enter plugin description here
+ * Plugin name: Data Migration
+ * Version: 1.0
+ * Description: data migration tools
  * Plugin URI: https://www.fivebyfive.com.au/
  * Author: Five by Five
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
-namespace FFPlugin\PluginName;
+namespace FF_Plugin\Data_Migration;
 
 class Plugin {
     
@@ -21,8 +21,8 @@ class Plugin {
 
     public function __construct() {
 
-        $this->plugin_name = 'Plugin Name Here';
-        $this->plugin_slug = 'plugin_slug_here';
+        $this->plugin_name = 'Data Migration';
+        $this->plugin_slug = 'data_migration';
         $this->plugin_url = plugins_url('/', __FILE__);
         $this->plugin_path = plugin_dir_path(__FILE__);
 

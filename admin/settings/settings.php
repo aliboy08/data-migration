@@ -1,13 +1,13 @@
 <?php
-
 FF_PLUGINS_VITE->enqueue('settings_page', 'src/settings-page/settings-page.js');
+// $this->vite->enqueue('admin', 'src/admin/admin.js');
 
-$this->vite->enqueue('admin', 'src/admin/admin.js');
-
-echo '<h2>'. $this->plugin_name .' Settings</h2>';
+echo '<h2>'. $this->plugin_name .'</h2>';
 
 $tabs = [
-    'general' => 'General',
+    'change_meta_key' => 'Change meta key',
+    'transfer_meta' => 'Transfer Meta',
+    'change_post_type' => 'Change post type',
 ];
 
 if( function_exists('ff_admin_tabs') ) {

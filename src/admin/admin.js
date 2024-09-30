@@ -1,3 +1,2 @@
 import './admin.scss';
-
-console.log('admin.js');
+console.log('data-migration/admin.js');
